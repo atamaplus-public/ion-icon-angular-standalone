@@ -1,9 +1,13 @@
 {
   "name": "ion-icon-angular-standalone",
-  "version": "0.0.1",
+  "description": "",
+  "version": "1.0.0",
+  "author": "atama plus inc.",
+  "license": "MIT",
   "peerDependencies": {
-    "@angular/common": "^17.3.0",
-    "@angular/core": "^17.3.0"
+    "@angular/core": ">=17.3.0",
+    "@ionic/angular": ">=8.1.3",
+    "ionicons": ">=7.2.3"
   },
   "dependencies": {
     "tslib": "^2.3.0"
