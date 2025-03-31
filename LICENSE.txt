@@ -1,0 +1,1 @@
+./projects/ion-icon-angular-standalone/LICENSE.txt
