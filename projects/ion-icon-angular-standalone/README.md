@@ -76,3 +76,31 @@ export class FooBarComponent {
   readonly fallbackIconName = addIcon({ logoIonic }); // 'logo-ionic' as IconName
 }
 ```
+
+## Restricting regular `IonIcon`
+
+It is hightly recommended to restrict imports of `IonIcon` from `@ionic/angular/standalone` in your 
+codebase.
+
+### ESLint
+
+```json
+{
+  "no-restricted-imports": [
+    "error",
+    {
+      "paths": [
+        {
+          "name": "@ionic/angular",
+          "message": "Use @ionic/angular/standalone instead."
+        },
+        {
+          "name": "@ionic/angular/standalone",
+          "importNames": ["IonIcon"],
+          "message": "Use components from ion-icon-angular-standalone instead."
+        }
+      ]
+    }
+  ]
+}
+```
