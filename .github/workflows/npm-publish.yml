@@ -17,7 +17,7 @@ jobs:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
       - run: npm ci
-      - run: npm run build -- ion-icon-angular-standalone
+      - run: npm run build -- ion-icon-angular-standalone -c production
       - run: npm publish --provenance ./dist/ion-icon-angular-standalone
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

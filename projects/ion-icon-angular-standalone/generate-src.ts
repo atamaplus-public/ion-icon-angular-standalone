@@ -13,15 +13,15 @@ type IconData = {
   content: string;
 };
 
-function toKebabCase(name: string) {
-  // https://github.com/ionic-team/ionicons/blob/4477c0251291dee6c2aeeebef8df928edf3e620f/src/components/icon/utils.ts#L34
-  return name.replace(/([a-z0-9]|(?=[A-Z]))([A-Z0-9])/g, '$1-$2').toLowerCase();
-}
-
 function* iterateIcons(): IterableIterator<IconData> {
   for (const [name, content] of Object.entries<string>(icons)) {
     yield { name, content };
   }
+}
+
+function toKebabCase(name: string) {
+  // https://github.com/ionic-team/ionicons/blob/4477c0251291dee6c2aeeebef8df928edf3e620f/src/components/icon/utils.ts#L34
+  return name.replace(/([a-z0-9]|(?=[A-Z]))([A-Z0-9])/g, '$1-$2').toLowerCase();
 }
 
 class ComponentDef {
