@@ -1,9 +1,14 @@
 {
   "name": "ion-icon-angular-standalone",
   "description": "",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "author": "atama plus inc.",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "scope": "",
+    "access": "public",
+  },
   "peerDependencies": {
     "@angular/core": ">=17.3.0",
     "@ionic/angular": ">=8.1.3",
