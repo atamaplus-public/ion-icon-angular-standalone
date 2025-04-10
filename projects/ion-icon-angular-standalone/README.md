@@ -8,9 +8,25 @@ https://ionicframework.com/docs/angular/build-options#standalone
 This library provides a wrapper for `IonIcon` component for each icon,
 that does exactly that.
 
-## Per-icon `ion-icon` components
+## Installation
 
-### Usage
+[![NPM Version](https://img.shields.io/npm/v/ion-icon-angular-standalone)](https://npmjs.com/package/ion-icon-angular-standalone)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+```
+npm i -S ion-icon-angular-standalone
+```
+
+This library has peer dependencies, notably:
+- `@angular/core >=17.3.0`
+- `@ionic/angular >=8.1.3`
+- `ionicons >=7.2.3"`
+
+(Minimum requirements are intentionally kept low. Please use newer versions of your preference.)
+
+## Usage
+
+### Per-icon `ion-icon` components
 
 In your component, import the icon components such as `IonIcon_logoIonic` from
 `ion-icon-angular-standalone` instead of `IonIcon` from `@ionic/angular/standalone`:
@@ -40,7 +56,7 @@ export class FooBarComponent {
 For usage of `ion-icon` with `src` attribute, `ion-icon-angular-standalone` contains 
 `IonIconWithoutName` component as well.
 
-## `ion-icon` component with branded-type
+### `ion-icon` component with branded-type
 
 For `ion-icon` without static `name` attribute, you can use the `IonIconWithBrandedName` component 
 from `ion-icon-angular-standalone/branded`. 
@@ -48,8 +64,6 @@ from `ion-icon-angular-standalone/branded`.
 This is useful when you have a component that takes an icon name as its input and renders `ion-icon` 
 element in its template with that name. Now, you can do so in a type-safe way that prevents you 
 and the component's users from missing `addIcons` calls.
-
-### Usage
 
 ```typescript
 // instead of:
