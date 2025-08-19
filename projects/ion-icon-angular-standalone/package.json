@@ -1,7 +1,7 @@
 {
   "name": "ion-icon-angular-standalone",
-  "description": "Convenient wrappers of IonIcon component from @ionic/angular/standalone",
-  "version": "1.0.0",
+  "description": "Simplify IonIcon usage in standalone Ionic Angular applications.",
+  "version": "1.0.1",
   "author": "atama plus inc.",
   "license": "MIT",
   "keywords": [
