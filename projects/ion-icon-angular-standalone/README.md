@@ -173,7 +173,7 @@ This prevents developers from accidentally using the standard `IonIcon` and ensu
 ## Articles
 
 - [New library for easier IonIcon usage in Ionic Angular standalone](https://medium.com/@ippei.ukai/new-library-for-easier-ionicon-usage-in-ionic-angular-standalone-b334a52464a0) - Medium article introducing the library
-  - [ion-iconのaddIconsを簡単にする「ionic-angular-collect-icons」](https://zenn.dev/rdlabo/articles/6109f1f7998920) - The same article in Japanese on Zenn
+  - [Standalone時代のIonic Angularでion-iconをスマートに扱う！ 〜ion-icon-angular-standaloneのご紹介〜](https://zenn.dev/atamaplus/articles/dfcaac49c50577) - The same article in Japanese on Zenn
 
 ## Contributing
 
