@@ -19,6 +19,7 @@ This library eliminates that manual work by providing pre-configured wrapper com
 
 [![NPM Version](https://img.shields.io/npm/v/ion-icon-angular-standalone)](https://npmjs.com/package/ion-icon-angular-standalone)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/atamaplus-public/ion-icon-angular-standalone)
 
 ```
 npm i -S ion-icon-angular-standalone
